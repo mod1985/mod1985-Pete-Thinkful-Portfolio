@@ -1,0 +1,139 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+/* Global styles */
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header-container h1 {
+  margin: 0;
+}
+
+.header-container nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-container nav a {
+  text-decoration: none;
+  color: #003049;
+}
+
+.header-container nav a:hover {
+  color: #f77f00;
+}
+
+/* Main sections */
+main {
+  padding: 20px 0;
+}
+
+section {
+  padding: 20px 0;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+/* About section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.about-section .image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.about-section .about-text {
+  max-width: 500px;
+}
+
+.about-section .about-text h3 {
+  text-align: center;
+}
+
+.background-section {
+  margin-top: 20px;
+}
+
+/* Portfolio section */
+.portfolio-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-item p {
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #003049;
+  color: #eae2b7;
+  padding: 10px 0;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Links */
+a {
+  color: #d62828;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f77f00;
+}
